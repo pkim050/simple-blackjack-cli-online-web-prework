@@ -5,8 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  rng = rand(1, 11)
-  return rng
+  return rand(12)
 end
 
 def display_card_total(card_total)
